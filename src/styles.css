@@ -30,7 +30,7 @@ nav ul {
 }
 nav ul li {
     font-weight: 500;
-    font-size: 1.2px;
+    font-size: 1.2rem;
     margin-left: 1rem;
 }
 nav ul li a {
@@ -52,6 +52,7 @@ nav ul li a:hover {
   text-decoration: none;
   border-radius: 0.3125rem; /* Converted 5px to rem */
   transition: background-color 0.3s ease;
+
   }
   
   .cta:hover {
@@ -61,8 +62,17 @@ nav ul li a:hover {
   
   .search-bar {
     padding: 0.625rem 0.9375rem; /* Converted 10px 15px to rem */
-  border: 0.0625rem solid #ccc; /* Converted 1px to rem */
-  border-radius: 1.25rem; /* Converted 20px to rem */
-  margin: 0 1.50rem; /* Converted 20px to rem */
-  width: 18.75rem; /* Converted 300px to rem */
+    border: 0.0625rem solid #ccc; /* Converted 1px to rem */
+    border-radius: 1.25rem; /* Converted 20px to rem */
+    margin: 0 1.25rem; /* Converted 20px to rem */
+    width: 18.75rem; /* Base width (300px) */
+    transition: width 0.3s ease; /* Smooth transition for width */
+  }
+  
+  .search-bar:hover,
+  .search-bar:focus {
+    width: 25rem; /* Increases width to 400px on hover and focus */
+    outline: none; /* Remove the default browser outline */
+    border-color: #45a049; /* Green border when hovered/focused */
+    background-color: #e6ffe6; /* Light green background when hovered/focused */
   }
