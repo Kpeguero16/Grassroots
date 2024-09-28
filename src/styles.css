@@ -1,38 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+
 body {
     margin: 0;
     font-family: Poppins, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
+
 header {
-    padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
 }
-main{
 
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-h1{
-    font-size: 40px;
+
+h1 {
+    font-size: 2.5rem;
 }
+
 .logo {
     cursor: pointer;
+    flex-grow: 1;
 }
+
 nav ul {
     list-style-type: none;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 6.25rem; /* Converted 100px to rem */
 }
+
 nav ul li {
     font-weight: 500;
     font-size: 1.2rem;
     margin-left: 1rem;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #0E524B;
@@ -40,39 +56,41 @@ nav ul li a {
     font-size: 1.2rem;
     transition: font-size 0.3s ease;
 }
+
 nav ul li a:hover {
     color: #5FA031;
-    font-size: 1.3rem; /* Increase font size on hover */
-    transition: font-size 0.3s ease; /* Smoothly change font size */
+    font-size: 1.3rem;
+    transition: font-size 0.3s ease;
 }
-.cta {
-    background-color: #0E524B; /* Button color */
-  color: white;
-  padding: 0.625rem 1.25rem; /* Converted 10px 20px to rem */
-  text-decoration: none;
-  border-radius: 0.3125rem; /* Converted 5px to rem */
-  transition: background-color 0.3s ease;
 
-  }
-  
-  .cta:hover {
+.cta {
+    background-color: #0E524B;
+    color: white;
+    padding: 0.625rem 1.25rem;
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
     background-color: #5FA031;
-    color:white /* Darker button color on hover */
-  }
-  
-  .search-bar {
-    padding: 0.625rem 0.9375rem; /* Converted 10px 15px to rem */
-    border: 0.0625rem solid #ccc; /* Converted 1px to rem */
-    border-radius: 1.25rem; /* Converted 20px to rem */
-    margin: 0 1.25rem; /* Converted 20px to rem */
-    width: 18.75rem; /* Base width (300px) */
-    transition: width 0.3s ease; /* Smooth transition for width */
-  }
-  
-  .search-bar:hover,
-  .search-bar:focus {
-    width: 25rem; /* Increases width to 400px on hover and focus */
-    outline: none; /* Remove the default browser outline */
-    border-color: #45a049; /* Green border when hovered/focused */
-    background-color: #e6ffe6; /* Light green background when hovered/focused */
-  }
+    color: white;
+}
+
+.search-bar {
+    padding: 0.625rem 0.9375rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 1.25rem;
+    margin: 0 1.25rem;
+    width: 18.75rem;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+}
+
+.search-bar:hover,
+.search-bar:focus {
+    width: 25rem;
+    outline: none;
+    border-color: #45a049;
+    background-color: #e6ffe6;
+}
