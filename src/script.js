@@ -40,6 +40,16 @@ function load()
         console.log(json[file]);
     }
 }
+    fetch('job-postings.json')
+        .then(response => response.json()) // Parse the JSON from the response
+        .then(data => {
+        // The JSON data is now stored in the `data` variable
+        console.log(data); // For debugging
+    
+        // Pass `data` to parser here
+        })
+        .catch(error => console.error('Error fetching the JSON file:', error));
+
 // Prints results
 console.log("Search Test: ")
 search("green");
