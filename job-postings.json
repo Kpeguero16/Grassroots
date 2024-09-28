@@ -1,0 +1,199 @@
+[
+    {
+      "category": "Pet Care",
+      "jobs": [
+        {
+          "title": "Dog-Sitter Needed for Weekends",
+          "poster": "Sophie Greene",
+          "description": "Sophie is looking for a dog-sitter to care for her two dogs during weekends. Duties include feeding, walking, and some playtime.",
+          "pay": "$18/hour",
+          "city": "Miami"
+        },
+        {
+          "title": "Pet-Sitting for Two Cats",
+          "poster": "Mike Thompson",
+          "description": "Mike is going on vacation and needs someone to care for his two cats. Responsibilities include feeding, cleaning the litter box, and occasional playtime.",
+          "pay": "$15/hour",
+          "city": "Orlando"
+        },
+        {
+          "title": "Dog Walker Needed - Weekday Afternoons",
+          "poster": "Alex Martinez",
+          "description": "Alex is looking for someone to walk his medium-sized dog on weekday afternoons. The walks should be about 45 minutes long, and the dog is friendly with people and other pets.",
+          "pay": "$15/hour",
+          "city": "Tampa"
+        },
+        {
+          "title": "Pet Sitting for Small Animals (Hamster and Rabbit)",
+          "poster": "Grace Young",
+          "description": "Grace needs someone to care for her hamster and rabbit while she's out of town. Duties include feeding, changing bedding, and keeping the animals entertained.",
+          "pay": "$12/hour",
+          "city": "Jacksonville"
+        },
+        {
+          "title": "Overnight Pet-Sitting for One Dog",
+          "poster": "Jamie Lee",
+          "description": "Jamie is looking for an overnight pet-sitter for his older dog, who needs companionship and regular potty breaks. The dog is well-behaved but requires medication in the morning and evening.",
+          "pay": "$50/night",
+          "city": "St. Petersburg"
+        },
+        {
+          "title": "Dog Grooming Assistant",
+          "poster": "Carla Simmons",
+          "description": "Carla needs assistance with grooming her large dog. Duties include bathing, brushing, and trimming nails. Experience with grooming tools is a plus, but not required.",
+          "pay": "$17/hour",
+          "city": "Fort Lauderdale"
+        },
+        {
+          "title": "Weekend Pet Sitter for Three Cats",
+          "poster": "Ryan Davis",
+          "description": "Ryan is looking for a reliable pet-sitter to care for his three cats over the weekend. Responsibilities include feeding, cleaning the litter boxes, and spending some playtime with the cats.",
+          "pay": "$18/hour",
+          "city": "Hialeah"
+        },
+        {
+          "title": "Doggie Daycare Helper",
+          "poster": "Megan Foster",
+          "description": "Megan runs a small doggie daycare out of her home and needs a helper to care for multiple dogs during the day. Duties include feeding, cleaning, and playing with the dogs.",
+          "pay": "$20/hour",
+          "city": "Cape Coral"
+        },
+        {
+          "title": "Dog Walking and Training Support",
+          "poster": "Oliver Grant",
+          "description": "Oliver is seeking a dog walker who also has experience with basic dog training commands. His dog is high-energy and in need of regular exercise and behavioral training reinforcement during walks.",
+          "pay": "$22/hour",
+          "city": "Clearwater"
+        },
+        {
+          "title": "Fish Tank Maintenance Specialist",
+          "poster": "Emily White",
+          "description": "Emily needs help maintaining her large saltwater fish tank. Responsibilities include cleaning the tank, checking water quality, and feeding the fish. Prior experience with fish tank maintenance is preferred.",
+          "pay": "$25/hour",
+          "city": "Palm Bay"
+        }
+      ]
+    },
+    {
+      "category": "Child Care",
+      "jobs": [
+        {
+          "title": "Evening Babysitter for Two Kids",
+          "poster": "Sarah Collins",
+          "description": "Sarah is looking for a babysitter for her two young kids. The job involves evening care, light meal prep, and putting them to bed.",
+          "pay": "$18/hour",
+          "city": "Miami"
+        },
+        {
+          "title": "After-School Childcare",
+          "poster": "Emma Sanchez",
+          "description": "Emma is seeking after-school care for her three children. Responsibilities include helping with homework, preparing snacks, and light housekeeping.",
+          "pay": "$22/hour",
+          "city": "Tampa"
+        },
+        {
+          "title": "Part-Time Evening Babysitter",
+          "poster": "Jessica Miller",
+          "description": "Jessica needs a part-time babysitter for her 5-year-old daughter. The job involves supervising her for 2-3 hours in the evenings and assisting with bedtime routines.",
+          "pay": "$20/hour",
+          "city": "Orlando"
+        },
+        {
+          "title": "Weekend Nanny Needed",
+          "poster": "Matthew Brown",
+          "description": "Matthew is seeking a weekend nanny for his two children, ages 4 and 7. Duties include planning activities, preparing meals, and providing supervision.",
+          "pay": "$22/hour",
+          "city": "Jacksonville"
+        },
+        {
+          "title": "After-School Sitter for Two Kids",
+          "poster": "Olivia Rodriguez",
+          "description": "Olivia needs an after-school sitter for her two kids, ages 6 and 9. The job includes helping with homework, providing snacks, and supervising playtime.",
+          "pay": "$18/hour",
+          "city": "Fort Lauderdale"
+        },
+        {
+          "title": "Mother's Helper for Infant",
+          "poster": "Laura Cooper",
+          "description": "Laura is looking for a mother's helper to assist her with caring for her newborn. Duties include feeding, diaper changes, and light housekeeping.",
+          "pay": "$17/hour",
+          "city": "St. Petersburg"
+        },
+        {
+          "title": "Full-Time Nanny for Toddler",
+          "poster": "Chris Evans",
+          "description": "Chris is looking for a full-time nanny to care for his 2-year-old son. Responsibilities include organizing activities, preparing meals, and taking the toddler to the park.",
+          "pay": "$25/hour",
+          "city": "Cape Coral"
+        },
+        {
+          "title": "Babysitter for Date Nights",
+          "poster": "Emma Collins",
+          "description": "Emma is seeking a reliable babysitter for occasional date nights. Care is needed for her 3-year-old and 7-year-old children. The job involves feeding, playing, and putting them to bed.",
+          "pay": "$18/hour",
+          "city": "Hialeah"
+        },
+        {
+          "title": "Overnight Nanny for Infant",
+          "poster": "Sophia Harris",
+          "description": "Sophia is in need of an overnight nanny to care for her newborn. Duties include feeding, diaper changes, and monitoring the baby throughout the night.",
+          "pay": "$150/night",
+          "city": "Clearwater"
+        },
+        {
+          "title": "Temporary Babysitter for School Break",
+          "poster": "Ryan Parker",
+          "description": "Ryan is looking for a temporary babysitter during the school break for his 6-year-old twins. The sitter will engage them in educational activities and take them on local outings.",
+          "pay": "$20/hour",
+          "city": "Palm Bay"
+        }
+      ]
+    },
+    {
+      "category": "Yard Work",
+      "jobs": [
+        {
+          "title": "Lawn Mowing and Hedge Trimming",
+          "poster": "John Peterson",
+          "description": "John is seeking help with mowing the lawn and trimming hedges in his backyard. Must be familiar with lawn care equipment.",
+          "pay": "$17/hour",
+          "city": "Orlando"
+        },
+        {
+          "title": "Garden Maintenance and Weeding",
+          "poster": "Mary Howard",
+          "description": "Mary needs assistance maintaining her garden, primarily weeding and pruning flowers.",
+          "pay": "$16/hour",
+          "city": "Miami"
+        },
+        {
+          "title": "Lawn Mowing and Edging",
+          "poster": "Michael Johnson",
+          "description": "Michael needs someone to mow and edge his lawn every two weeks. Equipment provided, but experience with lawn care tools is preferred.",
+          "pay": "$20/hour",
+          "city": "Jacksonville"
+        },
+        {
+          "title": "Garden Weeding and Mulching",
+          "poster": "Samantha Davis",
+          "description": "Samantha is looking for help with weeding her flower beds and applying mulch. This is a one-time job, with potential for future projects.",
+          "pay": "$18/hour",
+          "city": "Tampa"
+        },
+        {
+          "title": "Tree Trimming and Pruning",
+          "poster": "John Wilson",
+          "description": "John needs someone to trim and prune the trees in his backyard. Experience with tree care is required. Must bring your own tools.",
+          "pay": "$25/hour",
+          "city": "Fort Lauderdale"
+        },
+        {
+          "title": "Seasonal Leaf Raking",
+          "poster": "Sarah Adams",
+          "description": "Sarah is looking for someone to rake and bag leaves in her yard during the fall season. Equipment will be provided.",
+          "pay": "$17/hour",
+          "city": "Fort Lauderdale"
+        }
+      ]
+    }
+  ]
