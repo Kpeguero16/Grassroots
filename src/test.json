@@ -1,0 +1,16 @@
+{
+  "test": {
+    "color": "blue",
+    "name": "Matthew"
+  },
+
+  "test2": {
+    "color": "red",
+    "name": "John"
+  },
+
+  "test3": {
+    "color": "green",
+    "name": "Doe"
+  }
+}
