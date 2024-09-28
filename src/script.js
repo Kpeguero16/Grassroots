@@ -5,6 +5,9 @@ const json = require("./job-postings.json");
 const listings = [];
 const categories = [];
 
+var hasLogIn = false;
+var loginError = false;
+
 // Populates arrays
 for(let i = 0; i < 3; i++)
 {
@@ -37,18 +40,15 @@ function search(input)
 }
 
 // Loads 3 random listings
-function load()
-{
+function load() {
     // Has a collection of already used nums
     // Ensures no listing is used again
     const used_nums = [];
-    for(let i = 0; i < 3; i++)
-    {
+    for (let i = 0; i < 3; i++) {
         // Generates random number and checks if it's already used
         const num = Math.floor(Math.random() * (listings.length));
 
-        if(used_nums.includes(num))
-        {
+        if (used_nums.includes(num)) {
             // Causes the for-loop to go back and breaks the flow
             i--;
             continue;
@@ -60,6 +60,17 @@ function load()
 
         // Output Area
         console.log(listing);
+    }
+}
+
+function login(user, password)
+{
+    if(user != null && password != null)
+    {
+        loginError = false;
+        hasLogIn = true;
+    } else {
+        loginError = true;
     }
 }
 // Prints results
