@@ -1,52 +1,43 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Poppins, sans-serif;
-}
-
+/* Global styles */
 body {
     margin: 0;
-    font-family: Poppins, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    font-family: "Poppins", sans-serif;
+    max-width: 100vw;
+    overflow-x: hidden;
 }
 
+/* Header styling */
 header {
+    padding: 1.5rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    background-color: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-.logo {
+/* Logo styling */
+.logo img {
+    max-height: 4rem;
     cursor: pointer;
-    flex-grow: 1;
 }
 
+/* Navigation styling */
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
-    gap: 6.25rem; /* Converted 100px to rem */
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
 }
 
+/* Navigation links styling */
 nav ul li {
     font-weight: 500;
-    font-size: 1.2rem;
-    margin-left: 1rem;
+    font-size: 1.1rem;
 }
 
 nav ul li a {
@@ -54,21 +45,21 @@ nav ul li a {
     color: #0E524B;
     font-weight: bold;
     font-size: 1.2rem;
-    transition: font-size 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
     color: #5FA031;
-    font-size: 1.3rem;
-    transition: font-size 0.3s ease;
+    font-size: 1.25rem;
 }
 
+/* Call-to-action button */
 .cta {
     background-color: #0E524B;
     color: white;
-    padding: 0.625rem 1.25rem;
+    padding: 0.75rem 1.5rem;
     text-decoration: none;
-    border-radius: 0.3125rem;
+    border-radius: 0.5rem;
     transition: background-color 0.3s ease;
 }
 
@@ -77,13 +68,12 @@ nav ul li a:hover {
     color: white;
 }
 
+/* Search bar styling */
 .search-bar {
-    padding: 0.625rem 0.9375rem;
-    border: 0.0625rem solid #ccc;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #ccc;
     border-radius: 1.25rem;
-    margin: 0 1.25rem;
-    width: 18.75rem;
-    -webkit-transition: width 0.3s ease;
+    width: 18rem;
     transition: width 0.3s ease;
 }
 
@@ -94,3 +84,32 @@ nav ul li a:hover {
     border-color: #45a049;
     background-color: #e6ffe6;
 }
+
+/* Main content styling */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px); /* Adjust height based on header */
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+/* Media Queries for larger screens */
+@media only screen and (min-width: 1024px) {
+    header {
+        padding: 2rem 4rem;
+    }
+
+    nav ul {
+        gap: 3rem;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+}
+
