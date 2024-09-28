@@ -8,10 +8,6 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 main{
 
     display: flex;
@@ -34,23 +30,28 @@ nav ul {
 }
 nav ul li {
     font-weight: 500;
+    font-size: 1.2px;
     margin-left: 1rem;
 }
 nav ul li a {
     text-decoration: none;
     color: #0E524B;
     font-weight: bold;
+    font-size: 1.2rem;
+    transition: font-size 0.3s ease;
 }
 nav ul li a:hover {
     color: #5FA031;
+    font-size: 1.3rem; /* Increase font size on hover */
+    transition: font-size 0.3s ease; /* Smoothly change font size */
 }
 .cta {
     background-color: #0E524B; /* Button color */
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+  color: white;
+  padding: 0.625rem 1.25rem; /* Converted 10px 20px to rem */
+  text-decoration: none;
+  border-radius: 0.3125rem; /* Converted 5px to rem */
+  transition: background-color 0.3s ease;
   }
   
   .cta:hover {
@@ -59,9 +60,9 @@ nav ul li a:hover {
   }
   
   .search-bar {
-    padding: 10px 15px; /* Increase padding for a larger input */
-    border: 1px solid black;
-    border-radius: 20px; /* Round corners */
-    margin: 0 20px; /* Space around the search bar */
-    width: 300px; /* Set a specific width to make it longer */
+    padding: 0.625rem 0.9375rem; /* Converted 10px 15px to rem */
+  border: 0.0625rem solid #ccc; /* Converted 1px to rem */
+  border-radius: 1.25rem; /* Converted 20px to rem */
+  margin: 0 1.50rem; /* Converted 20px to rem */
+  width: 18.75rem; /* Converted 300px to rem */
   }
