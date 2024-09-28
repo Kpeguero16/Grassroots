@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 header {
     background-color: #f8f8f8;
@@ -10,22 +10,45 @@ header {
     align-items: center;
 }
 .logo {
-    height: 50px;
+    cursor: pointer;
 }
 nav ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
 }
 nav ul li {
+    font-weight: 500;
     margin-left: 1rem;
 }
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #0E524B;
     font-weight: bold;
 }
 nav ul li a:hover {
-    color: #007bff;
+    color: #5FA031;
 }
+.cta {
+    background-color: #0E524B; /* Button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta:hover {
+    background-color: #5FA031;
+    color:white /* Darker button color on hover */
+  }
+  
+  .search-bar {
+    padding: 10px 15px; /* Increase padding for a larger input */
+    border: 1px solid black;
+    border-radius: 20px; /* Round corners */
+    margin: 0 20px; /* Space around the search bar */
+    width: 300px; /* Set a specific width to make it longer */
+  }
