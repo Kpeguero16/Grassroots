@@ -1,16 +1,37 @@
-const files = ["test", "test2", "test3"]
-const json = require("./test.json")
+// Reads and saves JSON data
+const json = require("./job-postings.json");
 
+// Creates arrays to store listings and categories
+const listings = [];
+const categories = [];
+
+// Populates arrays
+for(let i = 0; i < 3; i++)
+{
+    category = json[i];
+    categories.push(category["category"]);
+    listings_available = category["jobs"];
+
+    for(let j = 0; j < listings_available.length; j++)
+    {
+        listings.push(listings_available[j]);
+    }
+}
+
+console.log(categories);
+
+// Prints all listings that has input in it.
 function search(input)
 {
-    for(let i = 0; i < files.length; i++)
+    for(let i = 0; i < listings.length; i++)
     {
         // Searches for the term with the matching input
-        const file = files[i];
-        if(json[file]["color"] === input || json[file]["name"] === input)
+        const listing = listings[i];
+        if(listing["title"] === input || listing["poster"] === input || listing["description"].includes(input) ||
+                listing["city"] === input || listing["pay"].includes(input))
         {
             // Output area
-            console.log(json[file]);
+            console.log(listing);
         }
     }
 }
@@ -24,7 +45,7 @@ function load()
     for(let i = 0; i < 3; i++)
     {
         // Generates random number and checks if it's already used
-        const num = Math.floor(Math.random() * (files.length));
+        const num = Math.floor(Math.random() * (listings.length));
 
         if(used_nums.includes(num))
         {
@@ -35,15 +56,16 @@ function load()
 
         used_nums.push(num);
         // Gets file with the randomly generated number
-        const file = files[num];
+        const listing = listings[num];
 
-        console.log(json[file]);
+        // Output Area
+        console.log(listing);
     }
 }
 // Prints results
 console.log("Search Test: ")
-search("green");
-search("John")
+search("Pet Care");
+search("someone")
 
 console.log("\nLoad Test: ")
 load();
