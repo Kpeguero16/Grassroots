@@ -1,9 +1,17 @@
 const files = ["test", "test2", "test3"]
 const json = require("./test.json")
 
-for (let i = 0; i < files.length; i++)
+function search(input)
 {
-    const file = files[i];
-    console.log(json[file]["color"]);
-    console.log(json[file]["name"]);
+    for(let i = 0; i < files.length; i++)
+    {
+        const file = files[i];
+        if(json[file]["color"] === input || json[file]["name"] === input)
+        {
+            console.log(json[file]);
+        }
+    }
 }
+
+search("blue");
+search("John")
