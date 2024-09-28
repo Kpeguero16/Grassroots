@@ -1,13 +1,26 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+html{
+    background-color: #FFFFFF;
+    color: #0E524B
 }
 header {
-    background-color: #f8f8f8;
     padding: 1rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 40px;
 }
 .logo {
     height: 50px;
