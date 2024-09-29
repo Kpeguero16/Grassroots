@@ -19,6 +19,7 @@ body{
   border-width: 1.563;
   border-color: black;
   background-color: #E8E8E8;
+  height: 60vh;
 }
 
 .image-content,
