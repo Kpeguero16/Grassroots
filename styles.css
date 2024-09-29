@@ -98,6 +98,19 @@ h1 {
     font-size: 2.5rem;
 }
 
+#post-listing {
+    background-color: #0E524B;
+    font-size: 1.4rem;
+    font-weight: 500;
+    font: "Poppins";
+    color: white;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    border-color: #0E524B;
+    transition: background-color 0.3s ease;
+}
+
 /* Media Queries for larger screens */
 @media only screen and (min-width: 1024px) {
     header {
