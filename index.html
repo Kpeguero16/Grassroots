@@ -24,7 +24,6 @@
         <meta property="twitter:description" content="Grassroots is a platform dedicated to empowering communities through local jobs and services. Find local help for small projects around the house, from cleaning to yard work, while building stronger connections within your community" />
         <meta property="twitter:image" content="https://i.imgur.com/sMCJ83t.jpg" />
 
-        <!-- Meta Tags Generated with https://metatags.io -->
         <link rel="stylesheet" href="styles.css">
 
         <!-- Primary Meta Tags -->
@@ -45,15 +44,15 @@
         <nav class="nav">
             <a href="#" class="nav-item"><h5>Categories</h5></a>
             <a href="#" class="nav-item"><h5>About</h5></a>
-            <a href="#" class="nav-item"><h5>Sign In</h5></a>
-            <button type="button" href="#" class="nav-item button-3" id="createListing">Create listing</button>
+            <a href="login.html" class="nav-item"><h5>Sign In</h5></a>
+            <button type="button" class="nav-item button-3" id="createListing" onclick="redirectToJobs()">Create listing</button>
         </nav>
     </header>
     <body>
         <section class="hero_section">
             <h1 id="text">Grow your community, one root at a time</h1>
 
-           <a href= "job.html"><button type="button" class="button-3">Get started</button></a>
+           <button type="button" class="button-3" onclick="redirectToJobs()">Get started</button>
         </section>
         <section id="about-section">
             <div id="first_about">
@@ -62,7 +61,7 @@
                     <h3>Grassroots is a platform dedicated to empowering communities through local jobs and services.
                         Find local help for small projects around the house, from cleaning to yard work,
                         while building stronger connections within your community</h3>
-                    <button type="button" class="button-3">Create a job posting</button>
+                    <button type="button" class="button-3" onclick="redirectToJobs()">Create a job posting</button>
                 </div>
                 <div class="image">
                     <img src="resources/planting.png" alt="People planting a plant on the ground">
@@ -70,16 +69,17 @@
             </div>
             <div id="second_about">
                 <div class="image">
-                    <img src="resources/lawnMower.jpg" alt="People planting a plant on the ground">
+                    <img src="resources/lawnMower.jpg" alt="Person mowing the lawn">
                 </div>
                 <div class="about">
                     <h2 class="title">Your next project is just around the corner</h2>
                     <h3>Find flexible, local job opportunities by helping homeowners with small projects. Whether
                         you're looking to earn extra cash or give back to your community, we're here to connect you
                         with neighbors who need a helping hand.</h3>
-                    <button type="button" class="button-3">Find a job in your community</button>
+                    <button type="button" class="button-3" onclick="redirectToJobs()">Find a job in your community</button>
                 </div>
 
             </div>
+        </section>
     </body>
 </html>
