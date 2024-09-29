@@ -79,10 +79,10 @@ nav ul li a:hover {
 
 .search-bar:hover,
 .search-bar:focus {
-    width: 25rem;
+    width: 19rem;
     outline: none;
-    border-color: #45a049;
-    background-color: #e6ffe6;
+    border-color: #5FA031;
+    background-color: white;
 }
 
 /* Main content styling */
@@ -101,11 +101,11 @@ h1 {
 /* Media Queries for larger screens */
 @media only screen and (min-width: 1024px) {
     header {
-        padding: 2rem 4rem;
+        padding: 5rem 5rem;
     }
 
     nav ul {
-        gap: 3rem;
+        gap: 10rem;
     }
 
     h1 {
