@@ -57,3 +57,10 @@ search("John")
 
 console.log("\nLoad Test: ")
 load();
+
+function redirectToJobs() {
+    window.location.href = "job.html"; // Replace with the relative path to your HTML file
+}
+function redirectToMain() {
+    window.location.href = "index.html"; // Replace with the relative path to your HTML file
+}
