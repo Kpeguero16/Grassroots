@@ -1,12 +1,3 @@
-/* Global styles */
-body {
-    margin: 0;
-    font-family: "Poppins", sans-serif;
-    max-width: 100vw;
-    overflow-x: hidden;
-}
-
-/* Header styling */
 header {
     padding: 1.5rem 2rem;
     display: flex;
@@ -15,6 +6,15 @@ header {
     background-color: white;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
+}
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    max-width: 100vw;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Logo styling */
@@ -27,7 +27,7 @@ header {
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
     margin: 0;
@@ -98,22 +98,16 @@ h1 {
     font-size: 2.5rem;
 }
 
-#hyper-button {
-    background-color: #0E524B;
-    font-size: 1.4rem;
-    font-weight: 500;
-    font: "Poppins";
-    color: white;
-    padding: .75rem 1.5rem;
-    text-decoration: none;
-    border-radius: .5rem;
-    border-color: #0E524B;
-    transition: background-color 0.3s ease;
-}
-
 .under-buttons {
     margin-top: 10px;
     margin-bottom: 20px;
+}
+
+#hero_section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Media Queries for larger screens */
