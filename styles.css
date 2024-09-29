@@ -98,7 +98,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-#post-listing {
+#hyper-button {
     background-color: #0E524B;
     font-size: 1.4rem;
     font-weight: 500;
@@ -109,8 +109,11 @@ h1 {
     border-radius: .5rem;
     border-color: #0E524B;
     transition: background-color 0.3s ease;
-    margin-top: 12px;
-    margin-bottom: 12px;
+}
+
+.under-buttons {
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 /* Media Queries for larger screens */
