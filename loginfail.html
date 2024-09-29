@@ -39,28 +39,29 @@
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="index.html"><img src="resources/grassroots_logo.png" alt="Grassroots logo" class="logo"></a>
-        </div>
-        <div class="search-container">
-            <input type="search" class="search-bar" placeholder="  Search by job, category, city, and more!" aria-label="Search">
-        </div>
-        <nav class="nav">
-            <a href="#" class="nav-item"><h5>Categories</h5></a>
-            <a href="index.html" class="nav-item"><h5>About</h5></a>
-            <a href="login.html" class="nav-item"><h5>Sign In</h5></a>
-            <button type="button" href="#" class="nav-item button-3" id="createListing">Create listing</button>
-        </nav>
-    </header>
+<header>
     <div>
-        <form method="post" action="">
-            <h3>Username</h3>
-            <input type="text" name="user" value="">
-            <h3>Password</h3>
-            <input type="text" name="password" value="">
-            <input type="submit" value="Log In" onclick="login(this.form)">
-        </form>
+        <a href="index.html"><img src="resources/grassroots_logo.png" alt="Grassroots logo" class="logo"></a>
     </div>
+    <div class="search-container">
+        <input type="search" class="search-bar" placeholder="  Search by job, category, city, and more!" aria-label="Search">
+    </div>
+    <nav class="nav">
+        <a href="#" class="nav-item"><h5>Categories</h5></a>
+        <a href="index.html" class="nav-item"><h5>About</h5></a>
+        <a href="login.html" class="nav-item"><h5>Sign In</h5></a>
+        <button type="button" href="#" class="nav-item button-3" id="createListing">Create listing</button>
+    </nav>
+</header>
+<div>
+    <form method="post" action="">
+        <h3>Username</h3>
+        <input type="text" name="user" value="">
+        <h3>Password</h3>
+        <p id="error">Error! Username or password might be incorrect</p>
+        <input type="text" name="password" value="">
+        <input type="submit" value="Log In" onclick="login(this.form)">
+    </form>
+</div>
 </body>
 </html>
