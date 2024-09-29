@@ -7,7 +7,7 @@ body{
 .slide-container{
   max-width: 1120px;
   width: 100%;
-  background-color: grey;
+  background-color: none;
   padding: 2.5 rem 0;
   margin-bottom: 5rem;
 }
@@ -19,7 +19,7 @@ body{
   border-width: 1.563;
   border-color: black;
   background-color: #E8E8E8;
-  height: 60vh;
+  max-height: 60vh;
 }
 
 .image-content,
