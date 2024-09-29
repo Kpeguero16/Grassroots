@@ -14,6 +14,7 @@ header {
     object-fit: contain;
     grid-column-start:1;
     grid-column-end:2;
+    justify-self: start;
 }
 .search-container {
     display: flex;
@@ -23,29 +24,45 @@ header {
 }
 
 .search-bar {
-    width: 31vw;
-    height: 4vh;
+    width: 27rem;
+    height: 2rem;
+    border: 2px solid #0E524B;
+    border-radius: 2rem;
+    transition: width 0.3s ease;
+}
+.search-bar:hover, .search-bar:focus {
+    outline: none;
+    border-color: #5FA031;
+    width: 27.5rem;
 }
 .nav {
     display: flex;
     justify-content: end;
     grid-column-start:5;
     grid-column-end:7;
+
 }
 .nav-item{
     margin-left: 1.5rem;
+    color: #5fa031;
+    font-family: "Poppins", sans-serif;
 }
-a{
-    text-decoration: none;
+a, a:visited{
+    text-decoration: none !important;
     width: fit-content;
+
 }
 body {
     margin: 0;
     font-family: "Poppins", sans-serif;
+    color:#0E524B;
     overflow-x: hidden;
-    display: inline-block;
+    display: grid;
     align-items: center;
     justify-content: center;
+}
+h1{
+    font-size: 2.5rem;
 }
 
 /* Call-to-action button */
@@ -63,23 +80,6 @@ body {
     color: white;
 }
 
-/*!* Search bar styling *!*/
-/*.search-bar {*/
-/*    padding: 0.75rem 1.25rem;*/
-/*    border: 3px solid #ccc;*/
-/*    border-radius: 1.25rem;*/
-/*    width: 18rem;*/
-/*    transition: width 0.3s ease;*/
-/*}*/
-
-/*.search-bar:hover,*/
-/*.search-bar:focus {*/
-/*    width: 19rem;*/
-/*    outline: none;*/
-/*    border-color: #5FA031;*/
-/*    background-color: white;*/
-/*}*/
-
 /* Main content styling */
 main {
     display: flex;
@@ -88,16 +88,6 @@ main {
     justify-content: center;
     height: calc(100vh - 80px); /* Adjust height based on header */
 }
-
-h1 {
-    font-size: 2.5rem;
-}
-
-.under-buttons {
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
 #hero_section{
     display:flex;
     flex-direction: column;
@@ -105,18 +95,55 @@ h1 {
     justify-content: center;
 }
 
-/*!* Media Queries for larger screens *!*/
-/*@media only screen and (min-width: 1600px) {*/
-/*    header {*/
-/*        padding: 5rem 5rem;*/
-/*    }*/
 
-/*    nav ul {*/
-/*        gap: 10rem;*/
-/*    }*/
+.button-3 {
+    height: 3.5rem;
+ appearance: none;
+ background-color: #0E524B;
+ border: 1px solid rgba(27, 31, 35, .15);
+ border-radius: 6px;
+ box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+ box-sizing: border-box;
+ color: #fff;
+ cursor: pointer;
+ display: inline-block;
+ font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 20px;
 
-/*    h1 {*/
-/*        font-size: 3rem;*/
-/*    }*/
-/*}*/
+ position: relative;
+ text-align: center;
+ text-decoration: none;
+ user-select: none;
+ -webkit-user-select: none;
+ touch-action: manipulation;
+ vertical-align: middle;
+ white-space: nowrap;
+}
 
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+box-shadow: none;
+outline: none;
+}
+
+.button-3:hover {
+background-color: #5fa031;
+}
+
+.button-3:focus {
+box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+outline: none;
+}
+
+.button-3:disabled {
+background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+}
+
+.button-3:active {
+    background-color: #0E524B;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
