@@ -65,14 +65,13 @@ function load() {
 
 function login(form)
 {
-    if(form.user.value != "" && form.password.value != "")
+    if(form.user.value !== "" && form.password.value !== "")
     {
-        loginError = false;
-        hasLogIn = true;
         console.log("success");
+        redirectToJobs();
     } else {
-        loginError = true;
         console.log("error")
+        throwToError();
     }
 }
 
@@ -93,4 +92,9 @@ function redirectToJobs() {
 }
 function redirectToMain() {
     window.location.href = "index.html"; // Replace with the relative path to your HTML file
+}
+
+function throwToError()
+{
+    window.location.href="loginfail.html";
 }
