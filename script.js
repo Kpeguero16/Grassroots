@@ -68,10 +68,10 @@ function login(form)
     if(form.user.value !== "" && form.password.value !== "")
     {
         console.log("success");
-        redirectToJobs();
+        window.location.replace("index.html");
     } else {
         console.log("error")
-        throwToError();
+        window.location.replace("loginfail.html");
     }
 }
 
