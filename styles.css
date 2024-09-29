@@ -6,7 +6,6 @@ header {
     justify-content: center;
     padding: 1rem;
     width: 98vw;
-    /*width: 100%;*/
 }
 
 .logo{
@@ -89,18 +88,7 @@ h1{
     transform: scale(1.05)
 }
 
-/* Main content styling */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color:  #5FA031;
-    padding: 1rem;
-    width: 98vw;
-
-}
-#hero_section{
+.hero_section{
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -234,3 +222,10 @@ img{
     cursor: pointer;
     transition: all 0.3 ease;
   }
+#jobPostings{
+    background-image: url("resources/farmers.jpg");
+    margin-bottom: 5rem;
+}
+input::placeholder {
+    font-family: 'Poppins', sans-serif; /* Replace with your font family */
+}
