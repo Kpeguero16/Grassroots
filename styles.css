@@ -95,7 +95,10 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 80px); /* Adjust height based on header */
+    background-color:  #5FA031;
+    padding: 1rem;
+    width: 98vw;
+
 }
 #hero_section{
     display:flex;
