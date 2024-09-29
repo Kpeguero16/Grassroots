@@ -26,6 +26,7 @@
 
     <!-- Meta Tags Generated with https://metatags.io -->
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 
     <!-- Primary Meta Tags -->
     <meta name="title" content="Grassroots" />
@@ -44,18 +45,18 @@
         </div>
         <nav class="nav">
             <a href="#" class="nav-item"><h5>Categories</h5></a>
-            <a href="#" class="nav-item"><h5>About</h5></a>
-            <a href="#" class="nav-item"><h5>Sign In</h5></a>
+            <a href="index.html" class="nav-item"><h5>About</h5></a>
+            <a href="login.html" class="nav-item"><h5>Sign In</h5></a>
             <button type="button" href="#" class="nav-item button-3" id="createListing">Create listing</button>
         </nav>
     </header>
     <div>
         <form method="post" action="">
-            <p>Username</p>
-            <input type="text">
-            <p>Password</p>
-            <input type="text">
-            <input type="submit">
+            <h3>Username</h3>
+            <input type="text" name="user" value="">
+            <h3>Password</h3>
+            <input type="text" name="password" value="">
+            <input type="submit" value="Log In" onclick="login(this.form)">
         </form>
     </div>
 </body>

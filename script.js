@@ -63,14 +63,16 @@ function load() {
     }
 }
 
-function login(user, password)
+function login(form)
 {
-    if(user != null && password != null)
+    if(form.user.value != "" && form.password.value != "")
     {
         loginError = false;
         hasLogIn = true;
+        console.log("success");
     } else {
         loginError = true;
+        console.log("error")
     }
 }
 
