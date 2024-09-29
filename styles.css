@@ -5,7 +5,8 @@ header {
     align-items: center;
     justify-content: center;
     padding: 1rem;
-    width: 100%;
+    width: 98vw;
+    /*width: 100%;*/
 }
 
 .logo{
@@ -107,5 +108,50 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+#getStarted{
+    font-size: 1.17rem;
+}
 
+#about-section{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+img{
+    height: 30rem;
+    width: 30rem;
+    object-fit: cover;
+}
+.about{
+    height: 30rem;
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#first_about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    height: 30rem;
+}
+#second_about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 5rem;
+    height: 30rem;
+}
+.title{
+    color: black;
 }
