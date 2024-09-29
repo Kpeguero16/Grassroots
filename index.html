@@ -36,6 +36,14 @@
     </header>
     <body>
         <section>
+            <img src="resources\image.png" id = "orig">
+            <img src="resources\grass.png" id = "grass">
+            <img src="resources\bird1.png" id = "bird1">
+            <img src="resources\bird2.png" id = "bird2">
+            <img src="resources\bird3.png" id = "bird3">
+            <img src="resources\smoke.png" id = "smoke">
+            <img src="resources\stars.png" id = "stars">
+            
             <h1 id="text">Grow your community, one root at a time</h1>
             <div>
                 <p>
@@ -44,5 +52,23 @@
                 </p>
             </div>
         </section>
+
+        <script>
+            let orig = document.getElementById('orig');
+            let grass = document.getElementById('grass');
+            let bird1 = document.getElementById('bird1');
+            let bird2 = document.getElementById('bird2');
+            let bird3 = document.getElementById('bird3');
+            let smoke = document.querySelector('smoke');
+            let = document.getElementById('stars');
+      
+      
+            window.addEventListener('scroll', function(){
+              let value = window.scrollY;
+              smoke.style.left = value*1.5+'px';
+              header.style.top = value*.5+'px';
+      
+            })
+          </script>
     </body>
 </html>
