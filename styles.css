@@ -146,3 +146,7 @@ img{
 .title{
     color: black;
 }
+#jobPostings{
+    background-image: url("resources/farmers.jpg");
+    margin-bottom: 5rem;
+}
