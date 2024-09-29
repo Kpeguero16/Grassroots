@@ -65,12 +65,11 @@ function load() {
 
 function login(form)
 {
+    event.preventDefault();
     if(form.user.value !== "" && form.password.value !== "")
     {
-        console.log("success");
         window.location.replace("index.html");
     } else {
-        console.log("error")
         window.location.replace("loginfail.html");
     }
 }
